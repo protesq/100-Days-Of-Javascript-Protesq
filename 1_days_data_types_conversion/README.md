@@ -66,11 +66,8 @@ The parseFloat function converts its first argument to a floating-point number:
 console.log(parseFloat("123.45")); // 123.45
 
  100 Günde JavaScript - Protesq
-
-🎯 **JavaScript Programlama Yolculuğu**  
-
-Bu repo, JavaScript öğrenme sürecimi belgelemek ve paylaşmak için oluşturulmuştur. Hedefim, her gün JavaScript ile ilgili yeni bir konu öğrenmek ve öğrendiklerimi burada paylaşmaktır. 👨‍💻
 ---
+Bu repo, JavaScript öğrenme sürecimi belgelemek ve paylaşmak için oluşturulmuştur. Hedefim, her gün JavaScript ile ilgili yeni bir konu öğrenmek ve öğrendiklerimi burada paylaşmaktır. 👨‍💻
 
 ## JavaScript Temelleri: Değişkenler, Veri Türleri ve Dönüştürmeler
 
