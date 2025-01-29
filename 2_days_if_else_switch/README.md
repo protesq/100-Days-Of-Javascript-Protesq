@@ -4,7 +4,7 @@
 Use the `if` statement to execute a block of code if a logical condition is true. Use the optional `else` clause to execute a block of code if the condition is false.
 
 ### Syntax
-```
+``` 
 if (condition) {
     Statement1;
 } else {
