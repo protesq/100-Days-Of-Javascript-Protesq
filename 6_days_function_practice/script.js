@@ -1,8 +1,4 @@
 
-
-
-
-
 document.getElementById('userForm').addEventListener('submit', function (event) {
   event.preventDefault(); // Formun varsayılan gönderme işlemini durdur
 
