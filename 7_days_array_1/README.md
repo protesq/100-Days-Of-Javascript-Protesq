@@ -228,7 +228,7 @@ console.log(jonas.length); // Çıktı: 5
 
 ---
 
-## En İyi Uygulamalar
+## Pratik yaparken;
 - Diziler için açıklayıcı değişken adları kullanın.
 - Basitlik açısından `Array` constructor yerine dizi literallerini tercih edin.
 - Elemanları dinamik olarak yönetmek için `push`, `pop`, `shift` ve `unshift` gibi dizi metotlarını kullanın.
