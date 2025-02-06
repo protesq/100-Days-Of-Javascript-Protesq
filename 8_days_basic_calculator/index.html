@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Basit Hesap Makinesi</title>
+  <style>
+    body { font-family: Arial, sans-serif; text-align: center; margin: 20px; }
+    input, select, button { margin: 10px; padding: 8px; font-size: 16px; }
+  </style>
+</head>
+<body>
+  <h1>Basic Calculator</h1>
+  <div>
+    <input type="number" id="number1" placeholder="Number 1">
+    <input type="number" id="number2" placeholder="Number 2">
+  </div>
+  <div>
+    <select id="operation">
+      <option value="add">Addition</option>
+      <option value="subtract">Subtract</option>
+      <option value="multiply">Multiply</option>
+      <option value="divide">Divide</option>
+    </select>
+  </div>
+  <button onclick="calculate()">Calculate</button>
+  <p id="result"></p>
+
+  <script>
+
+    function calculate() {
+      const number1 = parseFloat(document.getElementById('number1').value);
+      const number2 = parseFloat(document.getElementById('number2').value);
+      const operation = document.getElementById('operation').value;
+      let result;
+      try {
+        switch (operation) {
+            case 'add':
+                result = number1 + number2;
+                break;
+            case 'subtract':
+                result = number1 - number2;
+                break;
+            case 'multiply':
+                result = number1 * number2;
+                break;
+            case 'divide':
+                if (number2 === 0) {
+                    break
+                }
+            default:
+                throw new Error('Error: Invalid operation');
+      }
+      document.getElementById('result').textContent = `Sonuç: ${result}`;
+    }
+    catch (error) {
+        document.getElementById('result').textContent = `Hata: ${error.message}`;
+    }
+}
+  </script>
+</body>
+</html>
