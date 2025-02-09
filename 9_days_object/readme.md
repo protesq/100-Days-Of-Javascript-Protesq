@@ -63,7 +63,7 @@ const car1 = new Car("Eagle", "Talon TSi", 1993, rand);
 
 Here, the `Car` object contains an `owner` property that holds a `Person` object.
 
-### `Object.create()` Method (`Object.create()` Metodu)
+### `Object.create()` Method
 
 The `Object.create()` method allows you to create a new object using an existing object as its prototype. This method is useful for inheritance.
 
