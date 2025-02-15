@@ -80,6 +80,20 @@
   console.log(parseFloat("123.45")); // 123.45
   ```
 
+### Prefix Postfix Usage
+- Prefix and postfix operators are making the same result but there is a simple difference.
+  ```javascript
+  let number = 0; 
+
+  // Postfix: number++ (uses the value first, then increase)
+  const result_postfix = number++;
+  console.log(result_postfix);
+
+  // Prefix: ++number (first increase, then use the value)
+  const result_prefix = ++number;
+  console.log(result_prefix);
+  ```
+
  100 Günde JavaScript - Protesq
 ---
 Bu repo, JavaScript öğrenme sürecimi belgelemek ve paylaşmak için oluşturulmuştur. Hedefim, her gün JavaScript ile ilgili yeni bir konu öğrenmek ve öğrendiklerimi burada paylaşmaktır. 👨‍💻
@@ -199,6 +213,20 @@ parseInt(string, radix);
 ```javascript
 console.log(parseFloat("123.45")); // 123.45
 ```
+
+### Prefix Postfix Usage
+- Prefix ve postfix operatörleri temel olarak neredeyse aynı işi yaparlar ancak bunları özellikle bellekte farklı yöntemlerle yaparlar. Bu da çeşitli yerlerde kullanımını sağlar.
+  ```javascript
+  let number = 0; 
+
+  // Postfix: number++ (önce değeri kullanır, daha sonra artırır)
+  const result_postfix = number++;
+  console.log(result_postfix);
+
+  // Prefix: ++number (önce değeri artırır, daha sonra değeri kullanır)
+  const result_prefix = ++number;
+  console.log(result_prefix);
+  ```
 
 ---
 
