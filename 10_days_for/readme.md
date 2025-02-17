@@ -19,7 +19,7 @@ A simple and interactive shopping cart application built with vanilla JavaScript
 
 1. Clone the repository:
 
-git clone https://github.com/yourusername/shopping-cart.git
+git clone [https://github.com/yourusername/shopping-cart.git](https://github.com/protesq/100-Days-Of-Javascript-Protesq/tree/main/10_days_for)
 
 2. Open `index.html` in your browser
 
@@ -52,7 +52,7 @@ git clone https://github.com/yourusername/shopping-cart.git
 
 1. Depoyu klonlayın:
 
-git clone https://github.com/kullaniciadin/shopping-cart.git
+git clone [https://github.com/kullaniciadin/shopping-cart.git](https://github.com/protesq/100-Days-Of-Javascript-Protesq/tree/main/10_days_for)
 
 2. `index.html` dosyasını tarayıcınızda açın
 
